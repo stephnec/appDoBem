@@ -1,0 +1,507 @@
+﻿    @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat:400,800|Montserrat:400,600');
+    @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat:400,800|Montserrat:400,600');
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    /* NAVBAR */
+    .nav-size {
+        min-height: 77px;
+        transition: 2s;
+    }
+
+    .bg-menu {
+        transition: 500ms ease;
+        background-color: #1A1818 !important;
+    }
+
+    .bg-menu.scrolled {
+        background: #1A1818 !important;
+    }
+    .bg-menu-scrolled2 {
+        background-color: #000 !important;
+    }
+
+    .brand {
+        color: #fff !important;
+        font-size: 35px !important;
+        font-weight: 600 !important;
+    }
+
+    .nav-link {
+        color: #fff !important;
+        font-family: Montserrat, sans-serif;
+        font-weight: 600;
+    }
+
+    .custom-toggler.navbar-toggler {
+        border-color: transparent;
+    }
+
+    .custom-toggler .navbar-toggler-icon {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    button.navbar-toggler:focus {
+        outline: 1px none;
+    }
+
+    .btn-sair {
+        border: none !important;
+        color: #fff !important;
+        background: #03E0EE;
+        border-radius: 360px;
+        padding: 8px;
+        min-width: 120px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    /*MODAL MENSAGEM*/
+    @media only screen and (min-width: 768px) {
+        /*quadro colorido do modal*/
+        .quadrodeskpreto {
+            background-color: #1A1818 !important;
+        }
+
+        .balao {
+            max-width: 400px;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        /*quadro colorido do modal*/
+        .quadrodeskpreto {
+            background-color: #1A1818 !important;
+            height: 100px;
+        }
+        .balao {
+            max-width: 350px;
+        }
+    }
+
+    .barrapesquisa, .caixatexto {
+        border-radius: 20px;
+    }
+
+    .foto-instituicao {
+        height: 75px;
+        width: 75px;
+        border-radius: 100%;
+        margin-top: 25px;
+    }
+
+    .enviarmensagem {
+        border: none !important;
+        color: #fff !important;
+        background-color: #03E0EE !important;
+        border-radius: 360px;
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    .anexar {
+        border: none !important;
+        color: #fff !important;
+        background-color: #F6565F !important;
+        border-radius: 360px;
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    .col-12-balao {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        /* padding-right: 15px; */
+        padding-left: 25px;
+    }
+
+    .balao {
+        text-align: justify;
+        color: #fff;
+        font-size: 17px;
+        letter-spacing: 0.7px;
+        font-weight: 600;
+    }
+
+    .balao1 {
+        border-top-left-radius: 60px;
+        border-top-right-radius: 90px;
+        border-bottom-left-radius: 60px;
+        background: #FF5757;
+    }
+
+    .balao2 {
+        border-top-left-radius: 90px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+        background: #b9b9b9;
+    }
+
+    /* PERFIL */
+    .perfil {
+        margin-top: 40px;
+    }
+
+    .col-12-header {
+        position: relative;
+        width: 100%;
+        max-height: 350px !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .foto{
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        margin-top: -100px !important;
+    }
+
+    .txt-perfil {
+        width: 200px;
+    }
+
+    .bold{
+        font-weight: 600;
+    }
+
+    .pontos {
+        border: none !important;
+        background: #DBDBDB;
+        border-radius: 360px;
+        padding: 5px;
+        max-width: 100px;
+    }
+
+    .acoes {
+        background-color: #DEDEDE;
+        border-radius: 25px;
+    }
+
+    .moeda{
+        width:23px;
+    }
+
+    /* DOAÇOES */
+    .doacoes {
+        max-height: 550px !important;
+        margin-top: 70px;
+    }
+
+    .doacoeshead h4 {
+        color: #FFF;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+
+    .z-index{
+        z-index: 100;
+        position: absolute;
+        margin-left: 30%;
+    }
+
+    /* HASHTAGS */
+    .btn-hashtag {
+        color: #fff !important;
+        background: #03E0EE;
+        border-radius: 360px;
+        width: 200px;
+        padding: 7px;
+        text-align: center !important;
+        align-content: center;
+        display: inline-block;
+    }
+
+    .cor2 {
+        background-color: #F6565F !important;
+    }
+
+    /* INSTITUIÇÕES */
+    .instituicoes {
+        margin-top: 35%;
+    }
+
+    .instituicoes h3{
+        font-weight: 600;
+        letter-spacing: 5px;
+    }
+
+    .insti {
+        background-color: #F6F6F6;
+        border-radius: 25px;
+        margin: 0 auto;
+        height: 100px;
+    }
+
+    .iconinsti{
+        height: 80px;
+        border-radius: 360px;
+    }
+
+    .btn-bolinha {
+        height: 50px;
+        width: 50px !important;
+        border: none !important;
+        background-color: #F6565F;
+        border-radius: 360px;
+        cursor: pointer;
+    }
+
+    .instname {
+        color: #1A1818;
+    }
+
+    .cor3 {
+        background-color: #03C3CF !important;
+    }
+    .cor4 {
+        background-color: #00D4A8 !important;
+    }
+    .cor5 {
+        background-color: #7C2AE8 !important;
+    }
+
+    /* INSTITUIÇÃO - ALDEIA NISSI */
+    .doacoesheader {
+        height: 300px;
+        background: linear-gradient(to right, #ff616b, #6b3ddd);
+    }
+
+    .conteudoinsti {
+        text-align: justify;
+    }
+
+    .hashtag {
+        background-color: #F6565F;
+        color: #fff;
+        border-radius: 50px;
+    }
+    .hashtag h3 {
+        font-weight: 600;
+    }
+
+    .navinsti{
+        margin-top: 100px;
+    }
+
+    .caixinha {
+        background-color: #DEDEDE;
+        border-radius: 25px;
+    }
+
+    .nav-tabs .nav-link.active {
+        border-bottom: 2px solid #F6565F;
+    }
+    .nav-tabs .nav-link{
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 0px;
+    }
+
+    .valor{
+        font-size: 3vw;
+    }
+
+    .progress-bar {
+        background-color: #03C3CF !important;
+    }
+    .progress {
+        border-radius: .40rem;
+    }
+
+    .pay {
+        background-color: #DEDEDE !important;
+    }
+
+    .divNecessidades{
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+    .numeros{
+        font-size:70px;
+    }
+
+    .testemapaaqui {
+        font-size: 100px;
+    }
+
+    .btnRappi {
+        border: none !important;
+        color: #fff !important;
+        background: #F6565F;
+        padding: 7px;
+        border-radius: 360px;
+        text-align: center !important;
+        font-size: 19px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    /* DOBEM*/
+    .doBem {
+        margin-top: 25%;
+    }
+
+    .descontos {
+        border-radius: 25px;
+        margin: 0 auto;
+        height: auto;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .desconto {
+        background-color: #000;
+        color: #03C3CF;
+    }
+
+    .desconto50 {
+        background-color: #F6565F;
+        color: #fff;
+    }
+
+    .dobemz {
+        border-radius: 360px;
+        background-color: #03C3CF;
+        width: 80px;
+        font-size:25px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .dobemz50 {
+        background-color: #000 !important;
+    }
+
+    .lojaDesconto {
+    
+        font-size: 17px;
+    }
+
+
+    .porcento {
+        font-size: 110px;
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+    /* RODAPÉ */
+    .foot {
+        background-color: #1A1818;
+        color: #FFF;
+    }
+
+    /* MEDIA QUERIES */
+    @media only screen and (max-width: 576px) {
+        .z-index { /* barra de pesquisar */
+            margin-left: 10%;
+        }
+
+        .instituicoes {
+            margin-top: 50% !important;
+        }
+
+        .instituicoes h2 {
+            font-size: 20px !important;
+        }
+
+    }
+
+    @media only screen and (max-width: 768px) {
+        .doacoeshead h4 { /* texto pesquisa */
+            margin-top: -50%;
+        }
+
+        .instname {
+            font-size: 20px !important;
+            margin-top: 7px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .acoes{
+            margin-left: 350px !important;
+        }
+
+        .aa{
+            margin-top: -250px !important;
+        }
+
+        .doacoeshead h4{
+            margin-top: -300px;
+        }
+
+        .instituicoes {
+            margin-top: 25% !important;
+        }
+
+        .conteudoinsti {
+            margin-top: -80px;
+            margin-left: 350px !important;
+        }
+    }
+
+    @media only screen and (min-width: 992px) {
+        .acoes{
+            margin-left: 34% !important;
+        }
+
+        .conteudoinsti {
+            margin-top: -140px;
+            margin-left: 34% !important;
+        }
+    }
+
+    /* quadradinhos de desconto responsividade */
+    @media only screen and (min-width: 425px) {
+        .porcento {
+            margin-left: 10px;
+        }
+
+        .lojaDesconto {
+            margin-right: -20px;
+            margin-top: -15px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .porcento {
+            margin-left: 70px;
+            margin-right: -15px;
+        }
+
+        .lojaDesconto {
+            margin-right: -35px;
+            margin-top: -20px;
+        }
+    }
+
+    @media only screen and (min-width: 1023px) {
+        .porcento {
+            margin-left: 25px;
+        }
+
+        .lojaDesconto {
+            min-width: 300px;
+            margin-right: -10px;
+        }
+    }
+
+    @media only screen and (min-width: 1440px) {
+        .porcento {
+            margin-left: 55px;
+        }
+
+        .lojaDesconto {
+            min-width: 370px;
+            margin-right: -10px;
+        }
+    }
+    /*fim dos quadradinho*/

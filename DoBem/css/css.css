@@ -1,0 +1,287 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat:400,800|Montserrat:400,600');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVBAR */
+.nav-size {
+    min-height: 77px;
+    transition: 2s;
+}
+
+.bg-menu {
+    transition: 500ms ease;
+    background-color: transparent !important;
+}
+.bg-menu.scrolled {
+    background: #393535 !important;
+}
+.bg-menu-scrolled2 {
+    background-color: #000 !important;
+}
+
+.brand {
+    color: #ff616b !important;
+    font-size: 35px !important;
+    font-weight: 600 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 23px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: transparent;
+}
+.custom-toggler .navbar-toggler-icon {
+    width: 40px !important;
+    height: 40px !important;
+}
+button.navbar-toggler:focus {
+    outline: 1px none;
+}
+
+
+/* MODAIS */
+.form-dobem {
+    border-radius: 30px;
+    border: none;
+    padding: 20px;
+    height: 50px;
+    background: #ddd;
+}
+
+.btn-dobem {
+    border: none !important;
+    color: #fff !important;
+    background: #00f0ff;
+    border-radius: 360px;
+    padding: 8px;
+    min-width: 150px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-dobem-azul { background: #FF5757 !important; }
+.btn-dobem-roxo { background: #7C2AE8 !important; }
+
+.a-dobem-opcoes {
+    color: #ff616b;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.cadastromodalimg {
+    margin-top: 200px;
+}
+
+/* SOBRE */
+.sobremedida {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.btn-logar {
+    border: none !important;
+    color: #fff !important;
+    background: #FF5757;
+    border-radius: 360px;
+    width: 125px;
+    text-align: center !important;
+    align-content: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-cadastrar {
+    background: #03C3CF;
+    width: 200px;
+}
+
+/* VALORES */
+.valores {
+    background-color: #03C3CF;
+    color: #FFF;
+    margin-top: -100px;
+}
+.spacing {
+    letter-spacing: .5rem;
+}
+
+/* RODAPÉ */
+.size-form-dobem {
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.bold { /* negrito leve */
+    font-weight: 600;
+}
+
+/* INSTITUIÇÕES */
+#instituicoes {
+    height: 100%;
+}
+
+.medida {
+    margin-top: -60px;
+}
+
+.fontinst {
+    color: rgba(124, 42, 232, 0.83);
+    font-weight: 600;
+    text-align: center;
+}
+
+/* PLANOS */
+.planos {
+    padding: 0px;
+    background: #F6F6F6;
+    border-radius: 46px;
+    color: #FFF;
+    height: 500px;
+}
+.planos h2 {
+    font-weight: 600;
+}
+.planos h3{
+    color: #000;
+}
+
+.cor1 { background-color: #03C3CF; }
+
+.corletra p{
+    color: #000;
+}
+.corletra h2 {
+    color: #000;
+}
+
+.btn-quero {
+    border: none !important;
+    color: #fff !important;
+    background: #000;
+    border-radius: 360px;
+    height: 40px;
+    min-width: 150px;
+    cursor: pointer;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+/* NÓS */
+.slider {
+    background: linear-gradient(to right, #ff616b, #6b3ddd);
+}
+
+.foto{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+
+/* RODAPÉ E FORM */
+.espacamento {
+    letter-spacing: 4px;
+}
+
+.card-dobem {
+    background: #6b3ddd;
+    align-self: flex-end;
+    z-index: 100;
+    top: 10vh;
+    margin: 0 auto;
+    border-radius: 30px !important;
+    color: #FFF;
+}
+
+.foot {
+    background-color: #FF5757;
+    height: auto;
+    margin-top: -100px;
+}
+
+.aaaa {
+    color: #FFF;
+    font-weight: 600;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 576px) {
+    .planos { /* planos menores em mobile */
+        height: 500px;
+    }
+
+    .footerimg { /* img do footer */
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .medida { /* menina do cabelo */
+        margin-top: -50px !important;
+    }
+
+    .footerimg { /* img do footer */
+        position: absolute;
+        z-index: 100;
+        padding-right: 50px;
+    }
+
+    .redes {
+        margin-top: 300px !important;
+    }
+
+    .valores {
+        margin-top: -70px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .quadrodeskazul { /*quadro colorido do modal*/
+        background-color: #03C3CF !important;
+    }
+    .quadrodeskroxo {
+        background-color: #7C2AE8 !important;
+    }
+
+    .section-1 { /* background */
+        background: url(../images/start.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .footerimg { /* img do footer */
+        position: absolute;
+        z-index: 100;
+        padding-right: 50px;
+    }
+
+    .redes {
+        margin-top: 400px !important;
+    }
+
+    .planos { /* planos menores em mobile */
+        height: 600px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .footerimg { /* img do footer */
+        margin-top: -15px;
+        margin-left: 15%;
+    }
+
+    .redes {
+        margin-top: 400px !important;
+    }
+}
